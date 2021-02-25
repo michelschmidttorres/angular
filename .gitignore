@@ -1,0 +1,49 @@
+crud/backend/node_modules
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+crud/frontend/dist
+crud/frontend/tmp
+crud/frontend/out-tsc
+# Only exists if Bazel was run
+crud/frontend/bazel-out
+
+# dependencies
+crud/frontend/node_modules
+
+# profiling files
+crud/frontend/chrome-profiler-events*.json
+crud/frontend/speed-measure-plugin*.json
+
+# IDEs and editors
+crud/frontend/.idea
+crud/frontend/.project
+crud/frontend/.classpath
+crud/frontend/.c9/
+crud/frontend/*.launch
+crud/frontend/.settings/
+crud/frontend/*.sublime-workspace
+
+# IDE - VSCode
+crud/frontend/.vscode/*
+crud/frontend/!.vscode/settings.json
+crud/frontend/!.vscode/tasks.json
+crud/frontend/!.vscode/launch.json
+crud/frontend/!.vscode/extensions.json
+crud/frontend/.history/*
+
+# misc
+crud/frontend/.sass-cache
+crud/frontend/connect.lock
+crud/frontend/coverage
+crud/frontend/libpeerconnection.log
+crud/frontend/npm-debug.log
+crud/frontend/yarn-error.log
+crud/frontend/testem.log
+crud/frontend/typings
+
+# System Files
+crud/frontend/.DS_Store
+crud/frontend/Thumbs.db
+
